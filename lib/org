@@ -1,0 +1,90 @@
+import 'package:flutter/material.dart';
+
+import 'color.dart';
+
+// Row row() {
+//   return Row(
+//     mainAxisAlignment: MainAxisAlignment.spaceAround,
+//     children: [
+//       Row(
+//         children: [
+//           Container(
+//             padding: EdgeInsets.only(bottom: 30,left: 10),
+//             margin: EdgeInsets.only(left: 10),
+//             height: 210,
+//             width: 140,
+//             decoration: BoxDecoration(
+//               color: Colors.black12,
+//               borderRadius: BorderRadius.circular(10),
+//               image: DecorationImage(
+//                 fit:BoxFit.cover,
+//                 image: NetworkImage(
+//                   'https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072238.jpg?t=st=1712908008~exp=1712911608~hmac=e1d7332bfbc741d1494330cefd8104859bd85800af11d0b9f74e99d5663215ab&w=360',
+//
+//                 ),
+//               ),
+//
+//             ),
+//             child: Text.rich(TextSpan(children: [
+//               TextSpan(
+//                   text: 'new\n',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.red)
+//               ),
+//
+//               TextSpan(
+//                   text: 'beats Fit pro\n',
+//                   style: TextStyle(
+//                       fontSize: 20,
+//                       fontWeight: FontWeight.w800,
+//                       letterSpacing: 1,color: Colors.white)),
+//               TextSpan(
+//                   text: 'Rs199.99',
+//                   style: TextStyle(
+//                       fontSize: 15,
+//                       fontWeight: FontWeight.w300,
+//                       letterSpacing: 1,color: Colors.white))
+//             ])),
+//           ),
+//           SizedBox(
+//             width: 10,
+//           ),
+//           Container(
+//             padding: EdgeInsets.only(left: 10),
+//             margin: EdgeInsets.only(left: 10),
+//             height: 210,
+//             width: 140,
+//             decoration: BoxDecoration(
+//               image: DecorationImage(
+//                 fit: BoxFit.cover,
+//                 image: NetworkImage(
+//                     'https://img.freepik.com/free-photo/black-wireless-headphones-black-surface_417767-115.jpg?t=st=1712907868~exp=1712911468~hmac=01f675008fefba8ca28f1110979d3214c3a1266017fc62440ca7866db580f29e&w=996'),
+//               ),
+//               color: uicolor,
+//               borderRadius: BorderRadius.circular(10),
+//             ),
+//
+//
+//             child: Text.rich(TextSpan(children: [
+//               TextSpan(
+//                   text: 'new\n',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.red)
+//               ),
+//
+//               TextSpan(
+//                   text: 'beats Studio Buds\n',
+//                   style: TextStyle(
+//                       fontSize: 20,
+//                       fontWeight: FontWeight.w800,
+//                       letterSpacing: 1,color: Colors.white)),
+//               TextSpan(
+//                   text: 'Rs199.99',
+//                   style: TextStyle(
+//                       fontSize: 15,
+//                       fontWeight: FontWeight.w300,
+//                       letterSpacing: 1,color: Colors.white))
+//             ])),
+//           )
+//         ],
+//       )
+//     ],
+//   );
+// }
+
